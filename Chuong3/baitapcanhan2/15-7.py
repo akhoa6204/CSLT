@@ -1,18 +1,14 @@
 # a
 n=int(input())
-i=1
-giaithua=1
-while n==0 :
-    print('1')
+while n>=0:
+    giaithua=1
+    i=1
+    while i<=n:
+        giaithua*=i
+        i+=1  
+    print(giaithua)
     n=int(input())
-while n>0 and i<=n:
-    giaithua*=i
-    i+=1  
-print(giaithua)
-n=int(input())
-while n<0:
-    break 
-#b
+# #b
 n=int(input())
 while n>=0:
     i=1
@@ -28,6 +24,5 @@ while n>=0:
         print('1')
         n=int(input())
  
-        
 
 
