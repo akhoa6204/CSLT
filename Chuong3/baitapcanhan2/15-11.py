@@ -11,4 +11,3 @@ while n!=0:
     n=int(input())
 print(soduong,'so duong')
 print(soam,'so am')    
-#sai 
