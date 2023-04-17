@@ -14,9 +14,8 @@ for i in range(len(L)):
     if L[i]%2==0:
         sl+=1
         s=s+L[i]
-        tbc=s/sl
-    elif sl==0:
-        tbc=0 
+if sl==0:tbc=0
+else: tbc=s/sl 
 print('SND=',snd,sep='')
 print('TBC=',tbc,sep='')
         

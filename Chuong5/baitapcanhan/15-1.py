@@ -14,13 +14,13 @@ def FirstandLast(L):
         if i==0:
            N=N+[L[0]]
         if i==len(L)-1: 
-            N=N+[L[len(L)-1]]
+            N=N+[L[-1]]
     print(N)
 def Search(L,x):
     if x not in L:
-        print('False')
-    else: print('True')
+        return False
+    else: return True
 
 n,L,x=Input()
 FirstandLast(L)
-Search(L,x)
+print(Search(L,x))

@@ -8,8 +8,7 @@ while True:
 N=[]
 for i in L:
     if i not in N:
-        N=N+[i]
-    else: continue 
+        N=N+[i] 
 print(N)
 
     

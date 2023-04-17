@@ -21,13 +21,17 @@ x=int(input('nhap x='))
 # print(list) 
 
 #b c1)
-new=[]
-for i in list:  
-    if i!=x:
-        new=new+[i]
-print(new)
-
+# new=[]
+# for i in list:  
+#     if i!=x:
+#         new=new+[i]
+# print(new)
 #b c2)
+# for i in list:
+#     if i==x:
+#         list.remove(i)
+# print(list)
+
 
     
     
