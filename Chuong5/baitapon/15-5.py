@@ -1,9 +1,15 @@
 def update(L,x,y):
-    for i in L:
-        if i==x :
-            L[L.index(i)]=y
+    for i in range(len(L)):
+        if L[i]==x :
+            L[i]=y
     print(L)
-L=[1,2,3,4,3,4,5,5,3,3,2,1]
-x=3
-y=10 
+L=[]
+n=int(input())
+while True:
+    i=int(input())
+    L+=[i]
+    if len(L)==n:
+        break 
+x=int(input('nhap x='))
+y=int(input('nhap y='))
 update(L,x,y)

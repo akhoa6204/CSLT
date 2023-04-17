@@ -1,13 +1,19 @@
 def add(L,x,k):
-    if k<len(L):
-        L=L.insert(k,x)
+    if k<n:
+        L=L[:k]+[x]+L[k:]        
     else:
-        L=L.append(x)
-
-L=[1,2,'a','c','asd',45,123]
-k=int(input('Vi tri them vao:'))
-x=12
-add(L,x,k)
+        L+=[x]
+    return L
+L=[]
+n=int(input())
+while True:
+    i=int(input())
+    L+=[i]
+    if len(L)==n:
+        break 
+x=int(input('nhap x='))
+k=int(input('nhap k='))
+L=add(L,x,k)
 print(L)
 
 

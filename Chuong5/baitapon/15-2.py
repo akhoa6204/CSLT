@@ -1,9 +1,16 @@
 def search(L,x):
-    if x not in L: 
-        print('None') 
-    else: 
-        print(L.index(x))
-        
-L=[1,2,3,4,5,6]
-x=int(input('nhap x:'))
+    for i in range(len(L)):    
+        if L[i]==x :
+            print('Vi tri cua x la:',i)
+            
+    if x not in L : 
+        print('None')
+L=[]
+n=int(input())
+while True:
+    i=int(input())
+    L+=[i]
+    if len(L)==n:
+        break
+x=int(input('nhap x='))
 search(L,x)
