@@ -1,6 +1,6 @@
 i=str(input())
 l=list(i)
-k=['u','o','e','a','i','y']
+k=['u','e','o','a','i','y']
 if l[0] in k: 
     print(i+'way',sep='')
 else:   
