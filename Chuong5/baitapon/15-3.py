@@ -4,13 +4,11 @@ def delete(L,x):
         if i!=x:
             new+=[i]
     return new
+x=int(input())
 L=[]
 n=int(input())
-while True:
+for i in range(n):
     i=int(input())
     L+=[i]
-    if len(L)==n:
-        break
-x=int(input('nhap x='))
 L=delete(L,x)
 print(L)

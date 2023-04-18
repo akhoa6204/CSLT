@@ -6,11 +6,10 @@ def add(L,x,k):
     return L
 L=[]
 n=int(input())
-while True:
+for i in range(n):
     i=int(input())
     L+=[i]
-    if len(L)==n:
-        break 
+   
 x=int(input('nhap x='))
 k=int(input('nhap k='))
 L=add(L,x,k)

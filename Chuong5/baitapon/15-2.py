@@ -7,10 +7,9 @@ def search(L,x):
         print('None')
 L=[]
 n=int(input())
-while True:
+for i in range(n):
     i=int(input())
     L+=[i]
-    if len(L)==n:
-        break
+   
 x=int(input('nhap x='))
 search(L,x)

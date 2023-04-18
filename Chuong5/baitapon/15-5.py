@@ -3,13 +3,11 @@ def update(L,x,y):
         if L[i]==x :
             L[i]=y
     print(L)
+x=int(input())
+y=int(input())
 L=[]
 n=int(input())
-while True:
+for i in range(n):
     i=int(input())
     L+=[i]
-    if len(L)==n:
-        break 
-x=int(input('nhap x='))
-y=int(input('nhap y='))
 update(L,x,y)
