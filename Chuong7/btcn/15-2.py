@@ -14,5 +14,7 @@ for i in range(len(n)) :
         h=[]
 print(' '.join(a).capitalize())
 
-       
+
+
+
 
